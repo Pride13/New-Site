@@ -92,7 +92,6 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /*width: 1920px;*/
     height: 1080px;
 }
 
@@ -161,7 +160,6 @@ li{
 
 .background{
     background-color: #0081ff;
-    /*width: 1920px;*/
     height: 1080px;
 }
 
@@ -1111,20 +1109,24 @@ li{
     line-height: 28px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 768px) {
+    .container{
+        width: auto;;
+    }
+    .photos{
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .opacity{
+        flex-wrap: wrap;
+    }
+    .logos{
+        flex-wrap: wrap;
+    }
+    .common_blok{
+        flex-wrap: wrap;
+    }
+    .common__div{
+        flex-wrap: wrap;
+    }
+}
